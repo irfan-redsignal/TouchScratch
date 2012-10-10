@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		506B04E316254E5B0062FBFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506B04E216254E5B0062FBFE /* UIKit.framework */; };
+		506B04E516254E5B0062FBFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506B04E416254E5B0062FBFE /* Foundation.framework */; };
+		506B04E716254E5B0062FBFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506B04E616254E5B0062FBFE /* CoreGraphics.framework */; };
+		506B04E916254E5B0062FBFE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506B04E816254E5B0062FBFE /* CoreData.framework */; };
+		506B04EF16254E5B0062FBFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 506B04ED16254E5B0062FBFE /* InfoPlist.strings */; };
+		506B04F116254E5B0062FBFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 506B04F016254E5B0062FBFE /* main.m */; };
+		506B04F516254E5B0062FBFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 506B04F416254E5B0062FBFE /* AppDelegate.m */; };
+		506B04F816254E5B0062FBFE /* TouchScratch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 506B04F616254E5B0062FBFE /* TouchScratch.xcdatamodeld */; };
+		506B050016254E5B0062FBFE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506B04FF16254E5B0062FBFE /* SenTestingKit.framework */; };
+		506B050116254E5B0062FBFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506B04E216254E5B0062FBFE /* UIKit.framework */; };
+		506B050216254E5B0062FBFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506B04E416254E5B0062FBFE /* Foundation.framework */; };
+		506B050316254E5B0062FBFE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506B04E816254E5B0062FBFE /* CoreData.framework */; };
+		506B050B16254E5B0062FBFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 506B050916254E5B0062FBFE /* InfoPlist.strings */; };
+		506B050E16254E5B0062FBFE /* TouchScratchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 506B050D16254E5B0062FBFE /* TouchScratchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		506B050416254E5B0062FBFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 506B04D516254E5A0062FBFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 506B04DD16254E5B0062FBFE;
+			remoteInfo = TouchScratch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		506B04DE16254E5B0062FBFE /* TouchScratch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchScratch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		506B04E216254E5B0062FBFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		506B04E416254E5B0062FBFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		506B04E616254E5B0062FBFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		506B04E816254E5B0062FBFE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		506B04EC16254E5B0062FBFE /* TouchScratch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchScratch-Info.plist"; sourceTree = "<group>"; };
+		506B04EE16254E5B0062FBFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		506B04F016254E5B0062FBFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		506B04F216254E5B0062FBFE /* TouchScratch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchScratch-Prefix.pch"; sourceTree = "<group>"; };
+		506B04F316254E5B0062FBFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		506B04F416254E5B0062FBFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		506B04F716254E5B0062FBFE /* TouchScratch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TouchScratch.xcdatamodel; sourceTree = "<group>"; };
+		506B04FE16254E5B0062FBFE /* TouchScratchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchScratchTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		506B04FF16254E5B0062FBFE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		506B050816254E5B0062FBFE /* TouchScratchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchScratchTests-Info.plist"; sourceTree = "<group>"; };
+		506B050A16254E5B0062FBFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		506B050C16254E5B0062FBFE /* TouchScratchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchScratchTests.h; sourceTree = "<group>"; };
+		506B050D16254E5B0062FBFE /* TouchScratchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchScratchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		506B04DB16254E5B0062FBFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506B04E316254E5B0062FBFE /* UIKit.framework in Frameworks */,
+				506B04E516254E5B0062FBFE /* Foundation.framework in Frameworks */,
+				506B04E716254E5B0062FBFE /* CoreGraphics.framework in Frameworks */,
+				506B04E916254E5B0062FBFE /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506B04FA16254E5B0062FBFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506B050016254E5B0062FBFE /* SenTestingKit.framework in Frameworks */,
+				506B050116254E5B0062FBFE /* UIKit.framework in Frameworks */,
+				506B050216254E5B0062FBFE /* Foundation.framework in Frameworks */,
+				506B050316254E5B0062FBFE /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		506B04D316254E5A0062FBFE = {
+			isa = PBXGroup;
+			children = (
+				506B04EA16254E5B0062FBFE /* TouchScratch */,
+				506B050616254E5B0062FBFE /* TouchScratchTests */,
+				506B04E116254E5B0062FBFE /* Frameworks */,
+				506B04DF16254E5B0062FBFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		506B04DF16254E5B0062FBFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				506B04DE16254E5B0062FBFE /* TouchScratch.app */,
+				506B04FE16254E5B0062FBFE /* TouchScratchTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		506B04E116254E5B0062FBFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				506B04E216254E5B0062FBFE /* UIKit.framework */,
+				506B04E416254E5B0062FBFE /* Foundation.framework */,
+				506B04E616254E5B0062FBFE /* CoreGraphics.framework */,
+				506B04E816254E5B0062FBFE /* CoreData.framework */,
+				506B04FF16254E5B0062FBFE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		506B04EA16254E5B0062FBFE /* TouchScratch */ = {
+			isa = PBXGroup;
+			children = (
+				506B04F316254E5B0062FBFE /* AppDelegate.h */,
+				506B04F416254E5B0062FBFE /* AppDelegate.m */,
+				506B04F616254E5B0062FBFE /* TouchScratch.xcdatamodeld */,
+				506B04EB16254E5B0062FBFE /* Supporting Files */,
+			);
+			path = TouchScratch;
+			sourceTree = "<group>";
+		};
+		506B04EB16254E5B0062FBFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				506B04EC16254E5B0062FBFE /* TouchScratch-Info.plist */,
+				506B04ED16254E5B0062FBFE /* InfoPlist.strings */,
+				506B04F016254E5B0062FBFE /* main.m */,
+				506B04F216254E5B0062FBFE /* TouchScratch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		506B050616254E5B0062FBFE /* TouchScratchTests */ = {
+			isa = PBXGroup;
+			children = (
+				506B050C16254E5B0062FBFE /* TouchScratchTests.h */,
+				506B050D16254E5B0062FBFE /* TouchScratchTests.m */,
+				506B050716254E5B0062FBFE /* Supporting Files */,
+			);
+			path = TouchScratchTests;
+			sourceTree = "<group>";
+		};
+		506B050716254E5B0062FBFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				506B050816254E5B0062FBFE /* TouchScratchTests-Info.plist */,
+				506B050916254E5B0062FBFE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		506B04DD16254E5B0062FBFE /* TouchScratch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506B051116254E5B0062FBFE /* Build configuration list for PBXNativeTarget "TouchScratch" */;
+			buildPhases = (
+				506B04DA16254E5B0062FBFE /* Sources */,
+				506B04DB16254E5B0062FBFE /* Frameworks */,
+				506B04DC16254E5B0062FBFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchScratch;
+			productName = TouchScratch;
+			productReference = 506B04DE16254E5B0062FBFE /* TouchScratch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		506B04FD16254E5B0062FBFE /* TouchScratchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 506B051416254E5B0062FBFE /* Build configuration list for PBXNativeTarget "TouchScratchTests" */;
+			buildPhases = (
+				506B04F916254E5B0062FBFE /* Sources */,
+				506B04FA16254E5B0062FBFE /* Frameworks */,
+				506B04FB16254E5B0062FBFE /* Resources */,
+				506B04FC16254E5B0062FBFE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				506B050516254E5B0062FBFE /* PBXTargetDependency */,
+			);
+			name = TouchScratchTests;
+			productName = TouchScratchTests;
+			productReference = 506B04FE16254E5B0062FBFE /* TouchScratchTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		506B04D516254E5A0062FBFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Red Signal";
+			};
+			buildConfigurationList = 506B04D816254E5A0062FBFE /* Build configuration list for PBXProject "TouchScratch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 506B04D316254E5A0062FBFE;
+			productRefGroup = 506B04DF16254E5B0062FBFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				506B04DD16254E5B0062FBFE /* TouchScratch */,
+				506B04FD16254E5B0062FBFE /* TouchScratchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		506B04DC16254E5B0062FBFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506B04EF16254E5B0062FBFE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506B04FB16254E5B0062FBFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506B050B16254E5B0062FBFE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		506B04FC16254E5B0062FBFE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		506B04DA16254E5B0062FBFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506B04F116254E5B0062FBFE /* main.m in Sources */,
+				506B04F516254E5B0062FBFE /* AppDelegate.m in Sources */,
+				506B04F816254E5B0062FBFE /* TouchScratch.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506B04F916254E5B0062FBFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506B050E16254E5B0062FBFE /* TouchScratchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		506B050516254E5B0062FBFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 506B04DD16254E5B0062FBFE /* TouchScratch */;
+			targetProxy = 506B050416254E5B0062FBFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		506B04ED16254E5B0062FBFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				506B04EE16254E5B0062FBFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		506B050916254E5B0062FBFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				506B050A16254E5B0062FBFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		506B050F16254E5B0062FBFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		506B051016254E5B0062FBFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		506B051216254E5B0062FBFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchScratch/TouchScratch-Prefix.pch";
+				INFOPLIST_FILE = "TouchScratch/TouchScratch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		506B051316254E5B0062FBFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchScratch/TouchScratch-Prefix.pch";
+				INFOPLIST_FILE = "TouchScratch/TouchScratch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		506B051516254E5B0062FBFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TouchScratch.app/TouchScratch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchScratch/TouchScratch-Prefix.pch";
+				INFOPLIST_FILE = "TouchScratchTests/TouchScratchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		506B051616254E5B0062FBFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TouchScratch.app/TouchScratch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchScratch/TouchScratch-Prefix.pch";
+				INFOPLIST_FILE = "TouchScratchTests/TouchScratchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		506B04D816254E5A0062FBFE /* Build configuration list for PBXProject "TouchScratch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506B050F16254E5B0062FBFE /* Debug */,
+				506B051016254E5B0062FBFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		506B051116254E5B0062FBFE /* Build configuration list for PBXNativeTarget "TouchScratch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506B051216254E5B0062FBFE /* Debug */,
+				506B051316254E5B0062FBFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		506B051416254E5B0062FBFE /* Build configuration list for PBXNativeTarget "TouchScratchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				506B051516254E5B0062FBFE /* Debug */,
+				506B051616254E5B0062FBFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		506B04F616254E5B0062FBFE /* TouchScratch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				506B04F716254E5B0062FBFE /* TouchScratch.xcdatamodel */,
+			);
+			currentVersion = 506B04F716254E5B0062FBFE /* TouchScratch.xcdatamodel */;
+			path = TouchScratch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 506B04D516254E5A0062FBFE /* Project object */;
+}
